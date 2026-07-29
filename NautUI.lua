@@ -16,6 +16,9 @@ local NUMBER_FONT = "Fonts\\ARIALN.TTF"
 local NauticusClassic = NauticusClassic
 local L = LibStub("AceLocale-3.0"):GetLocale("NauticusClassic")
 
+local C_AddOns = setmetatable(C_AddOns or {},{__index=_G})
+local IsAddOnLoaded = C_AddOns.IsAddOnLoaded
+
 local transports = NauticusClassic.transports
 
 
